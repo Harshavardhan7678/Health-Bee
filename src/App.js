@@ -1,4 +1,4 @@
-import Footer from "./Components/Footer.jsx";
+import Footer from "./Components/footer/Footer.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Landing from "./Pages/Landing/Landing.jsx";
 import About from "./Pages/About/About.jsx"
