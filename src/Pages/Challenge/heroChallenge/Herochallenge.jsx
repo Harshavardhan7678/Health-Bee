@@ -1,13 +1,13 @@
 import React from 'react';
-import './css/heroyoga.css';
+import './css/challenge.css';
 
-export default function Heroyoga() {
+export default function Herochallenge() {
     return (
         <div>
-            <div className="herosectionyoga">
+            <div className="herosectionchallenge">
                 <div className="leftsection">
                     <div className="textsection">
-                        <div className="heading">Do yoga, Get a girlfriend</div>
+                        <div className="heading">21 days challenge.</div>
                         <div className="subheading">Lorem ipsum dolor, lectus sit lorem id integer.</div>
                     </div>
                     <div className="button">Get Started</div>
