@@ -7,7 +7,7 @@ import Blog from "./Pages/Blog/Blog.jsx";
 import Yoga from "./Pages/Yoga/Yoga.jsx";
 import Challenge from "./Pages/Challenge/Challenge.jsx";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import React from 'react'
 
 function App() {
   return (
@@ -15,26 +15,14 @@ function App() {
 
       <Router>
         <Navbar />
-        <Routes />
-        <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route exact path="/About">
-          <About />
-        </Route>
-        <Route path="/Calculator">
-          <Calculator />
-        </Route>
-        <Route path="/Blog">
-          <Blog />
-        </Route>
-        <Route path="/Yoga">
-          <Yoga />
-        </Route>
-        <Route path="/Challenge">
-          <Challenge />
-        </Route>
-        <Routes />
+        <Routes>
+          <Route exact path="/" element={<Landing />}/>
+          <Route exact path="/about" element={<About />}/>
+          <Route exact path="/calculator" element={<Calculator />}/>
+          <Route exact path="/blog" element={<Blog />}/>
+          <Route exact path="/yoga" element={<Yoga/>}/>
+          <Route exact path="/challenge" element={<Challenge/>}/>
+        </Routes >
         <Footer />
       </Router>
 
