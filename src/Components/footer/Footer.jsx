@@ -14,16 +14,6 @@ const Footer = () => {
               className="footer_logo"
             />
           </div>
-          <div className="textsection">
-            <div className="text">
-              <div className="subheading">HOME</div>
-              <div className="subheading">About</div>
-              <div className="subheading">Calculator</div>
-              <div className="subheading">Blog</div>
-              <div className="subheading">Yoga</div>
-              <div className="subheading">Challenge</div>
-            </div>
-          </div>
 
           <div className="bottom_section">
             <div className="right_section">
