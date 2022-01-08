@@ -1,9 +1,10 @@
 import React from 'react'
+import Heroyoga from './heroyoga/Heroyoga'
 
 export default function Yoga() {
     return (
         <div>
-            <h1>Yoga Page</h1>
+            <Heroyoga/>
         </div>
     )
 }
