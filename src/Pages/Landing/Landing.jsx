@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Features from "./features/features";
+import Service from "./services/services";
+import Stats from "./stats/stats";
 
 export default function Landing() {
-    return (
-        <div>
-            <h1>Landing page</h1>
-        </div>
-    )
+  return (
+    <div>
+      <Stats />
+      <Features />
+      <Service/>
+    </div>
+  );
 }
