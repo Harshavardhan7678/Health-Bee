@@ -1,4 +1,5 @@
-import "./css/ngos.css";
+// import { Link } from "react-router-dom";
+import "./css/service.css";
 
 const ServiceCard = (props) => {
   return (
@@ -11,10 +12,11 @@ const ServiceCard = (props) => {
         </div>
         <div className="textsectioncard">
           <div className="name">{props.name}</div>
-          <div className='location'>{props.location}</div>
+          <div className="location">{props.location}</div>
         </div>
         <div className="button">
-          Visit
+        <a href={props.link}>Visit</a>
+        
         </div>
       </div>
     </>

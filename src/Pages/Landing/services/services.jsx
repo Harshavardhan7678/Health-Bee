@@ -1,4 +1,4 @@
-import "./css/ngos.css";
+import "./css/service.css";
 import ServiceCard from "./serviceCard";
 import serviceData from "./servicedata";
 
@@ -7,7 +7,7 @@ const Service = () => {
     <>
       <div className="service">
         <div className="textsection">
-          <h1>the services which we provide</h1>
+          <h1>Our Services</h1>
         </div>
         <div className="underline"></div>
         <div className="cardssection">
@@ -18,6 +18,7 @@ const Service = () => {
                   image={val.image}
                   name={val.name}
                   location={val.location}
+                  link={val.link}
                 />
               );
             })}

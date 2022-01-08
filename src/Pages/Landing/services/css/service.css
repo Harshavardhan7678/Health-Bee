@@ -17,9 +17,11 @@
 
 .service .textsection {
   margin: auto;
-  font-family: Seoul;
+  font-family: roboto;
   font-size: 25px;
   letter-spacing: 0.05em;
+  padding-top: 0.55rem;
+  color: #dbd9d9;
 }
 
 .service .textsection h1 {
@@ -134,4 +136,4 @@
   z-index: 1;
   overflow: hidden;
 }
-/*# sourceMappingURL=ngos.css.map */
+/*# sourceMappingURL=service.css.map */
