@@ -14,6 +14,7 @@ $white: #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
 
     .logosection {
       .footer_logo {
@@ -24,6 +25,7 @@ $white: #fff;
     .textsection {
       width: 50%;
       height: fit-content;
+      padding: 2rem 0 1rem 0;
       @media(max-width: 900px){
           width: 90%;
             

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footerbox">
           <div className="logosection">
-            <h2>HiberHack</h2>
+            <h2>Hibernation Hack</h2>
             <img
               src=""
               alt=""
