@@ -95,7 +95,6 @@ export default function Countdown (){
                   <button className="timerActionBtn" onClick={reset}>
                     <AiOutlineReload size = '2rem' />
                   </button>
-                 <p>Relax</p>
                 </div>
                 
               </>
