@@ -1,9 +1,10 @@
 import React from 'react'
+import Herochallenge from './heroChallenge/Herochallenge'
 
 export default function Challenge() {
     return (
         <div>
-            <h1>21 Days Challenege Page</h1>
+            <Herochallenge/>
         </div>
     )
 }
