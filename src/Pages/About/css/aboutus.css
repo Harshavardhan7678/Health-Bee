@@ -1,0 +1,66 @@
+.aboutus {
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutus .aboutusbox {
+  width: 80%;
+  height: 50vh;
+  background-color: #53149A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 20px;
+}
+
+.aboutus .aboutusbox .left_aboutussection {
+  width: 50%;
+  margin: auto 0 auto 3rem;
+}
+
+.aboutus .aboutusbox .left_aboutussection .text_aboutus {
+  margin: auto;
+}
+
+.aboutus .aboutusbox .left_aboutussection .text_aboutus .heading_aboutus {
+  font-size: 60px;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.aboutus .aboutusbox .left_aboutussection .text_aboutus .subheading_aboutus {
+  font-size: 20px;
+  color: white;
+}
+
+.aboutus .aboutusbox .right_aboutussection {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutus .aboutusbox .right_aboutussection .aboutusimage {
+  width: 390px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=aboutus.css.map */
