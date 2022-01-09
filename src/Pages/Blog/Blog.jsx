@@ -24,37 +24,29 @@ export default function Blog() {
               </div>
               <div class="item2">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">The Art of Healthy Living</div>
+                  <div className="blogsubheading">Life</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item3">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">Nerd Fitness</div>
+                  <div className="blogsubheading"> Fitness</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item4">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">MyFitnessPal Blog</div>
+                  <div className="blogsubheading">Health</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item5">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">Shape</div>
+                  <div className="blogsubheading">Body</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
@@ -62,46 +54,36 @@ export default function Blog() {
             <div class="grid-container">
               <div class="item1">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">Well + Good</div>
+                  <div className="blogsubheading">Mental health</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item2">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
+                  <div className="blogheading">Bites of Wellness</div>
                   <div className="blogsubheading">Healthy Food</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item3">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">Health Magazine</div>
+                  <div className="blogsubheading"> Book</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item4">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
+                  <div className="blogheading">Healthline Nutrition</div>
                   <div className="blogsubheading">Healthy Food</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>
               <div class="item5">
                 <div className="textsection">
-                  <div className="blogheading">
-                    Wake up and smell the coffee.
-                  </div>
-                  <div className="blogsubheading">Healthy Food</div>
+                  <div className="blogheading">HealthyPlace</div>
+                  <div className="blogsubheading">Healthy Living</div>
                   <div className="blogbutton">Read More</div>
                 </div>
               </div>

@@ -30,11 +30,31 @@
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   padding: 20px 0;
   border-radius: 10px;
   font-size: 30px;
+}
+
+.grid-container > div:nth-child(1){
+  background-color: #A0DCFF;
+}
+
+.grid-container > div:nth-child(2){
+  background-color: #C0DAE5;
+}
+
+.grid-container > div:nth-child(3){
+  background-color: #C1E5C0;
+}
+
+.grid-container > div:nth-child(4){
+  background-color: #FDD9D9;
+}
+
+.grid-container > div:nth-child(5){
+  background-color: #FFC3D8;
 }
 
 .blogbutton{
@@ -62,4 +82,13 @@
 
 .blogbutton{
     margin-top: 2rem;
+}
+
+.blogheading{
+  font-size: 35px;
+  padding-bottom: 1rem;
+}
+
+.blogsubheading{
+  font-size: 20px;
 }
