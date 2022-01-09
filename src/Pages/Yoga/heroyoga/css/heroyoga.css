@@ -1,0 +1,86 @@
+.herosectionyoga {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.herosectionyoga .leftsection {
+  width: 60%;
+  height: 100vh;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.herosectionyoga .leftsection .textsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.herosectionyoga .leftsection .textsection .heading {
+  padding-top: 11rem;
+  font-size: 70px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.herosectionyoga .leftsection .textsection .subheading {
+  margin: auto;
+  font-size: 30px;
+  padding-bottom: 4rem;
+}
+
+.herosectionyoga .leftsection .button {
+  font-weight: 600;
+  font-size: 25px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 160px;
+  background-color: #8C30F5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.herosectionyoga .rightsection {
+  height: 100vh;
+  width: 40%;
+  background-color: #53149A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.herosectionyoga .rightsection .box .landingimage {
+  height: 570px;
+}
+/*# sourceMappingURL=heroyoga.css.map */

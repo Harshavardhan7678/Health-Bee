@@ -1,0 +1,48 @@
+.aboutus{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .aboutusbox{
+        width: 80%;
+        height: 50vh;
+        background-color: #53149A;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+
+        .left_aboutussection{
+            width: 50%;
+            margin: auto 0 auto 3rem;
+
+            .text_aboutus{
+                margin: auto;
+
+                .heading_aboutus{
+                    font-size: 60px;
+                    color: white;
+                    padding-bottom: 1rem;
+                }
+
+                .subheading_aboutus{
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+
+        .right_aboutussection{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .aboutusimage{
+                width: 390px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

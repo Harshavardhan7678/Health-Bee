@@ -1,0 +1,65 @@
+.herosectionchallenge{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+    .leftsection{
+        width: 60%;
+        height: 100vh;
+        background-color: white;
+        // justify-content: center;
+        // align-items: center;
+        // display: flex;
+        // align-items: left;
+        flex-direction: column;
+        .textsection{
+            display: flex;
+            flex-direction: column;
+            .heading{
+                padding-top: 11rem;
+                font-size: 70px;
+                margin: auto;
+                padding-bottom: 2rem;
+            }
+            .subheading{
+                margin: auto;
+                font-size: 30px;
+                padding-bottom: 4rem;
+            }
+        }
+        .button{
+            // margin-top: 2rem;
+            font-weight: 600;
+            font-size: 25px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 50px;
+            width: 160px;
+            background-color: #8C30F5;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            
+        }
+    }
+    
+    .rightsection{
+        height: 100vh;
+        width: 40%;
+        background-color: #53149A;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+
+        .box{
+            
+            .landingimage{
+                height: 570px;
+            }
+        }
+    }
+}
