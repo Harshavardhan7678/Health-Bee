@@ -7,7 +7,7 @@ export default function Heroyoga() {
             <div className="herosectionyoga">
                 <div className="leftsection">
                     <div className="textsection">
-                        <div className="heading">Do yoga, Get a girlfriend</div>
+                        <div className="heading">Do yoga, Get good health</div>
                         <div className="subheading">Lorem ipsum dolor, lectus sit lorem id integer.</div>
                     </div>
                     <div className="button">Get Started</div>
