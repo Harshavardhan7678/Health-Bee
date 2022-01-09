@@ -8,7 +8,7 @@ export default function Herochallenge() {
                 <div className="leftsection">
                     <div className="textsection">
                         <div className="heading">21 days challenge.</div>
-                        <div className="subheading">Lorem ipsum dolor, lectus sit lorem id integer.</div>
+                        <div className="subheading">Get a new habit with the 21days challenge.</div>
                     </div>
                     <div className="button">Get Started</div>
                 </div>

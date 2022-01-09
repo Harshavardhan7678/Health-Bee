@@ -1,0 +1,73 @@
+.challengesection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.textsection{
+    font-size: 30px;
+    margin: 1rem auto 1rem auto;
+}
+
+.trackers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ticks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.tracker{
+    /* background-color: aqua; */
+    width: 20%;
+    margin: 2rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.day, .target, .completed{
+    padding: 1rem 0;
+}
+
+.day{
+    font-size: 22px;
+}
+
+.trackers > div:nth-child(1n){
+    background-color: #A0DCFF;
+  }
+
+  .trackers > div:nth-child(2n){
+    background-color: #C0DAE5;
+  }
+
+  .trackers > div:nth-child(3n){
+    background-color: #C1E5C0;
+  }
+
+  .trackers > div:nth-child(4n){
+    background-color: #FDD9D9;
+  }
+
+  .trackers > div:nth-child(5n){
+    background-color: #FFC3D8;
+  }
+
+  .trackers > div:nth-child(6n){
+    background-color: #ffa0ef;
+  }
+
+  .trackers > div:nth-child(7n){
+    background-color: #e6ffa0;
+  }
+
