@@ -6,8 +6,8 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .herosectionchallenge .leftsection {
@@ -16,8 +16,8 @@
   background-color: white;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .herosectionchallenge .leftsection .textsection {
@@ -26,8 +26,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .herosectionchallenge .leftsection .textsection .heading {
@@ -48,17 +48,17 @@
   font-size: 25px;
   margin: auto;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 50px;
   width: 160px;
-  background-color: #8c30f5;
+  background-color: #8C30F5;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -68,16 +68,16 @@
 .herosectionchallenge .rightsection {
   height: 100vh;
   width: 40%;
-  background-color: #53149a;
+  background-color: #53149A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .herosectionchallenge .rightsection .box .landingimage {
