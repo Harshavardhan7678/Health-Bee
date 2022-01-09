@@ -3,7 +3,7 @@
 }
 
 .item1 {
-  grid-area: header;
+  grid-area: menu;
 }
 .item2 {
   grid-area: menu;
@@ -21,11 +21,10 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header header header header header"
     "menu main main main right right"
     "menu footer footer footer footer footer";
   grid-gap: 20px;
-  background-color: #53149a;
+  background-color: #f0e1ff;
   padding: 20px;
 }
 
@@ -37,58 +36,58 @@
   font-size: 30px;
 }
 
-.grid-container > div:nth-child(1){
-  background-color: #A0DCFF;
+.grid-container > div:nth-child(1) {
+  background-color: #a0dcff;
 }
 
-.grid-container > div:nth-child(2){
-  background-color: #C0DAE5;
+.grid-container > div:nth-child(2) {
+  background-color: #c0dae5;
 }
 
-.grid-container > div:nth-child(3){
-  background-color: #C1E5C0;
+.grid-container > div:nth-child(3) {
+  background-color: #c1e5c0;
 }
 
-.grid-container > div:nth-child(4){
-  background-color: #FDD9D9;
+.grid-container > div:nth-child(4) {
+  background-color: #fdd9d9;
 }
 
-.grid-container > div:nth-child(5){
-  background-color: #FFC3D8;
+.grid-container > div:nth-child(5) {
+  background-color: #ffc3d8;
 }
 
-.blogbutton{
-    font-weight: 600;
-    font-size: 15px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 110px;
-    background-color: #8C30F5;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #fff;
+.blogbutton {
+  font-weight: 600;
+  font-size: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  width: 110px;
+  background-color: #8c30f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
 }
 
-.textsection{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 1rem;
+.textsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
 }
 
-.blogbutton{
-    margin-top: 2rem;
+.blogbutton {
+  margin-top: 2rem;
 }
 
-.blogheading{
+.blogheading {
   font-size: 35px;
   padding-bottom: 1rem;
 }
 
-.blogsubheading{
+.blogsubheading {
   font-size: 20px;
 }
